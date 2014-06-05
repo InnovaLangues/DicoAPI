@@ -72,18 +72,5 @@ $(document).ready(function() {
 			$(idDiv).hide();	
 		}
 
-	});
-	// $('#selectRP').bind("click",function(){
-	// 	$("#i").toggle(function(){
-	// 		addClass("selectedLanguage");
-	// 	});
-	// 	$(this).toggle(function(){
-	// 		addClass("active");
-	// 	});
-	// });
-
-// $('#selectRP').on("click",function(){
-// 		$("#i").toggleClass("selectedLanguage");
-// 		$(this).toggleClass("active");
-// 	});
+	})
 });

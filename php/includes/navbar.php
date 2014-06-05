@@ -17,7 +17,6 @@
   			<li class="navbar-right"><a href="#">Login</a></li>
   			
   		</ul>
-  		<!-- <button class="navbar-right btn btn-default navbar-btn">Login</button> -->
   	</div>
   </div>
 </nav>

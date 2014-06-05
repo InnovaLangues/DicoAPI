@@ -1,7 +1,7 @@
 SET NAMES 'utf8';
 
 
---voir avec l'export de MySQL
+--TODO : ajouter les CREATE
 INSERT INTO aperture VALUES ('0','Ferm&eacutee');
 INSERT INTO aperture VALUES ('0','Pr&eacute-Ferm&eacutee');
 INSERT INTO aperture VALUES ('0','Mi-Ferm&eacutee');
