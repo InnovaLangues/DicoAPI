@@ -14,7 +14,6 @@
 				
 			<?php 
 			$phonemes = select('SELECT * FROM voyelle');
-			// echo $phonemes;
 			foreach  ($phonemes as $phonemeCourrant) {
 				?>
 			       <li data-toggle="modal" data-target=<?php echo("#".$phonemeCourrant->id); ?> 
