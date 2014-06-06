@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$(".more-info").hide();
+
 	//Sélectionner la langue
 	$('#selectRP').on('click',function(){
 		$("li").removeClass("selectedLanguage");
@@ -34,6 +35,7 @@ $(document).ready(function() {
 
 	});
 
+	//Afficher/Cacher les infos supplémentaires sur un phonème
 	$("button.see-more").on("click",function(){
 		var idDiv = "."+$(this).attr('data-target-id');
 		if ($(this).children('span').hasClass('glyphicon-chevron-down')) {
