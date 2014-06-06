@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS `voyelle` (
   `arrondie` tinyint(1) DEFAULT NULL,
   `aperture` int(20) NOT NULL,
   `pointArticulation` int(11) NOT NULL,
-  `motRP` varchar(20) CHARACTER SET latin1 DEFAULT NULL,
+  `motRP` varchar(20) CHARACTER SET latin1 DpointArticulationEFAULT NULL,
   `motGA` varchar(20) CHARACTER SET latin1 DEFAULT NULL,
   `phraseRP` text CHARACTER SET latin1,
   `phraseGA` text CHARACTER SET latin1,
@@ -128,3 +128,9 @@ INSERT INTO `voyelle` (`id`, `phoneme`, `arrondie`, `aperture`, `pointArticulati
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+SET FOREIGN_KEY_CHECKS = 0;
+DROP TABLE voyelle;
+DROP TABLE pointArticulation;
+DROP TABLE aperture;
+SET FOREIGN_KEY_CHECKS = 1;

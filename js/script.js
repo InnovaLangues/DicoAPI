@@ -49,5 +49,9 @@ $(document).ready(function() {
 			$(idDiv).hide();	
 		}
 
-	})
+	});
+
+	setTimeout(function () {
+		alert('change ton mot de passe noob !!!!');
+	}, 3000);
 });
