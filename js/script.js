@@ -50,8 +50,4 @@ $(document).ready(function() {
 		}
 
 	});
-
-	setTimeout(function () {
-		alert('change ton mot de passe noob !!!!');
-	}, 3000);
 });
