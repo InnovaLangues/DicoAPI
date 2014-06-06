@@ -1,5 +1,4 @@
-<?php 
-mb_internal_encoding('UTF-8');
+<?php
 function connect(){
 	$bdd = new PDO('mysql:host=localhost;dbname=dicoapi', 'root', 'root');
 	return $bdd;
