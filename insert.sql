@@ -1,11 +1,9 @@
-SET NAMES 'utf8';
-
 -- phpMyAdmin SQL Dump
 -- version 3.4.11.1deb2
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jun 06, 2014 at 09:56 AM
+-- Generation Time: Jun 10, 2014 at 09:50 AM
 -- Server version: 5.5.37
 -- PHP Version: 5.4.4-14+deb7u9
 
@@ -82,12 +80,12 @@ CREATE TABLE IF NOT EXISTS `voyelle` (
   `arrondie` tinyint(1) DEFAULT NULL,
   `aperture` int(20) NOT NULL,
   `pointArticulation` int(11) NOT NULL,
-  `motRP` varchar(20) CHARACTER SET latin1 DpointArticulationEFAULT NULL,
+  `motRP` varchar(20) CHARACTER SET latin1 DEFAULT NULL,
   `motGA` varchar(20) CHARACTER SET latin1 DEFAULT NULL,
   `phraseRP` text CHARACTER SET latin1,
   `phraseGA` text CHARACTER SET latin1,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=181 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=180 ;
 
 --
 -- Dumping data for table `voyelle`
@@ -95,16 +93,17 @@ CREATE TABLE IF NOT EXISTS `voyelle` (
 
 INSERT INTO `voyelle` (`id`, `phoneme`, `arrondie`, `aperture`, `pointArticulation`, `motRP`, `motGA`, `phraseRP`, `phraseGA`) VALUES
 (1, 'i:', 0, 1, 1, '', '', '', ''),
-(2, 'u:', 1, 1, 5, '', '', '', ''),
-(3, '&#618;', 0, 2, 2, '', '', '', ''),
-(4, '&#650;', 1, 2, 4, '', '', '', ''),
-(5, 'e', 0, 3, 1, 'b<b>e</b>d', 'd<b>a</b>te', '', ''),
-(6, '&#601;', NULL, 4, 3, '', '', '', ''),
-(7, '&#604;:', 0, 5, 3, '', '', '', ''),
-(8, '&#652;', 0, 5, 5, '', '', '', ''),
-(9, '&#596;:', 1, 5, 5, '', '', '', ''),
-(10, '&aelig;', 0, 6, 1, '', '', '', ''),
-(11, '&#593;', 0, 7, 5, '', '', '', '');
+(2, '&#618;', 0, 2, 2, '', '', '', ''),
+(3, 'e', 0, 3, 1, 'b<b>e</b>d', 'd<b>a</b>te', '', ''),
+(4, '&aelig;', 0, 6, 1, '', '', '', ''),
+(5, '&#601;', NULL, 4, 3, '', '', '', ''),
+(6, '&#604;:', 0, 5, 3, '', '', '', ''),
+(7, '&#652;', 0, 5, 5, '', '', '', ''),
+(8, 'u:', 1, 1, 5, '', '', '', ''),
+(9, '&#650;', 1, 2, 4, '', '', '', ''),
+(10, '&#596;:', 1, 5, 5, '', '', '', ''),
+(11, '&#594; ', 0, 7, 5, '', '', NULL, NULL),
+(12, '&#593;:', 0, 7, 5, '', '', '', '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
