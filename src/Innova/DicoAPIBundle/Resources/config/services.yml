@@ -1,0 +1,7 @@
+parameters:
+#    innova_dico_api.example.class: Innova\DicoAPIBundle\Example
+
+services:
+#    innova_dico_api.example:
+#        class: %innova_dico_api.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

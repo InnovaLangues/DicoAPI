@@ -1,0 +1,78 @@
+<?php
+namespace Innova\DicoAPIBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * @ORM\Entity
+ */
+class Aperture
+{
+    /**
+     * @ORM\Column(type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @ORM\Column(type="string", length=100)
+     */
+    private $aperture;
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set aperture
+     *
+     * @param string $aperture
+     * @return Aperture
+     */
+    public function setAperture($aperture)
+    {
+        $this->aperture = $aperture;
+
+        return $this;
+    }
+
+    /**
+     * Get aperture
+     *
+     * @return string 
+     */
+    public function getAperture()
+    {
+        return $this->aperture;
+    }
+
+    /**
+     * Set voyelles
+     *
+     * @param integer $voyelles
+     * @return Aperture
+     */
+    public function setVoyelles($voyelles)
+    {
+        $this->voyelles = $voyelles;
+
+        return $this;
+    }
+
+    /**
+     * Get voyelles
+     *
+     * @return integer 
+     */
+    public function getVoyelles()
+    {
+        return $this->voyelles;
+    }
+}
