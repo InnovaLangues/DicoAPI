@@ -22,7 +22,7 @@
 		       	<?php echo($phonemeCourrant->phoneme); ?>
 		       </li> 
 	       <?php
-				creerModal($phonemeCourrant);
+				//creerModal($phonemeCourrant);
 				}?>
 		</ul>
 	</div>
