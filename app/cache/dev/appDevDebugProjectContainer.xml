@@ -17,7 +17,6 @@
       <parameter key="DoctrineBundle">Doctrine\Bundle\DoctrineBundle\DoctrineBundle</parameter>
       <parameter key="DoctrineFixturesBundle">Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle</parameter>
       <parameter key="SensioFrameworkExtraBundle">Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle</parameter>
-      <parameter key="AcmeHelloBundle">Acme\HelloBundle\AcmeHelloBundle</parameter>
       <parameter key="InnovaDicoAPIBundle">Innova\DicoAPIBundle\InnovaDicoAPIBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
@@ -1655,7 +1654,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>53a7e601aa8ea</argument>
+            <argument>53a7f5c688bac</argument>
           </service>
         </argument>
       </argument>
@@ -1771,7 +1770,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.context"/>
-            <argument>53a7e601aa8ea</argument>
+            <argument>53a7f5c688bac</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
           </service>
         </argument>
@@ -2584,10 +2583,6 @@
       <call method="addPath">
         <argument>/home/innova/htdocs/DicoAPI/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Resources/views</argument>
         <argument>Doctrine</argument>
-      </call>
-      <call method="addPath">
-        <argument>/home/innova/htdocs/DicoAPI/src/Acme/HelloBundle/Resources/views</argument>
-        <argument>AcmeHello</argument>
       </call>
       <call method="addPath">
         <argument>/home/innova/htdocs/DicoAPI/src/Innova/DicoAPIBundle/Resources/views</argument>
