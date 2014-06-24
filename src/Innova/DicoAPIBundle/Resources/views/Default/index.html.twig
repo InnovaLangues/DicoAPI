@@ -13,7 +13,7 @@ Dictionnaire API
 						{% for voyelle in voyelles if voyelle.numCol == 1 %}
 						<tr>
 							<td>
-								<span class="phoneme">{{ voyelle.phoneme|raw }}</span><br>
+								<span class="phoneme">{{ voyelle.phoneme }}</span><br>
 								<span class="mot">{{ voyelle.mot|raw }}</span>
 							</td>
 						</tr>
@@ -26,7 +26,7 @@ Dictionnaire API
 						{% for voyelle in voyelles if voyelle.numCol == 2 %}
 						<tr>
 							<td>
-								<span class="phoneme">{{ voyelle.phoneme|raw }}</span><br>
+								<span class="phoneme">{{ voyelle.phoneme }}</span><br>
 								<span class="mot">{{ voyelle.mot|raw }}</span>
 							</td>
 						</tr>
@@ -39,7 +39,7 @@ Dictionnaire API
 						{% for voyelle in voyelles if voyelle.numCol == 3 %}
 						<tr>
 							<td>
-								<span class="phoneme">{{ voyelle.phoneme|raw }}</span><br>
+								<span class="phoneme">{{ voyelle.phoneme }}</span><br>
 								<span class="mot">{{ voyelle.mot|raw }}</span>
 							</td>
 						</tr>

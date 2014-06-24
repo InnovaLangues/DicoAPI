@@ -23,7 +23,7 @@ class LoadVoyelleData extends AbstractFixture implements OrderedFixtureInterface
         $this->addReference('voyelle1', $voyelle1);
 
         $voyelle2 = new Voyelle();
-        $voyelle2->setPhoneme('&#618;');
+        $voyelle2->setPhoneme('ɪ');
         $voyelle2->setNumCol('1');
         $voyelle2->setMot('r<b>i</b>ch');
         $voyelle2->setSonPhoneme(NULL);
@@ -47,7 +47,7 @@ class LoadVoyelleData extends AbstractFixture implements OrderedFixtureInterface
         $this->addReference('voyelle3', $voyelle3);
 
         $voyelle4 = new Voyelle();
-        $voyelle4->setPhoneme('&aelig;');
+        $voyelle4->setPhoneme('æ');
         $voyelle4->setNumCol('1');
         $voyelle4->setMot('c<b>a</b>t');
         $voyelle4->setSonPhoneme(NULL);
@@ -59,7 +59,7 @@ class LoadVoyelleData extends AbstractFixture implements OrderedFixtureInterface
         $this->addReference('voyelle4', $voyelle4);
 
         $voyelle5 = new Voyelle();
-        $voyelle5->setPhoneme('&#601;');
+        $voyelle5->setPhoneme('ə');
         $voyelle5->setNumCol('2');
         $voyelle5->setMot('b<b>ir</b>d');
         $voyelle5->setSonPhoneme(NULL);
@@ -71,7 +71,7 @@ class LoadVoyelleData extends AbstractFixture implements OrderedFixtureInterface
         $this->addReference('voyelle5', $voyelle5);
 
         $voyelle6 = new Voyelle();
-        $voyelle6->setPhoneme('&#604;:');
+        $voyelle6->setPhoneme('ɜ:');
         $voyelle6->setNumCol('2');
         $voyelle6->setMot('dinn<b>er</b>');
         $voyelle6->setSonPhoneme(NULL);
@@ -83,7 +83,7 @@ class LoadVoyelleData extends AbstractFixture implements OrderedFixtureInterface
         $this->addReference('voyelle6', $voyelle6);
 
         $voyelle7 = new Voyelle();
-        $voyelle7->setPhoneme('&#652;');
+        $voyelle7->setPhoneme('ʌ');
         $voyelle7->setNumCol('2');
         $voyelle7->setMot('h<b>u</b>t');
         $voyelle7->setSonPhoneme(NULL);
@@ -107,7 +107,7 @@ class LoadVoyelleData extends AbstractFixture implements OrderedFixtureInterface
         $this->addReference('voyelle8', $voyelle8);
 
         $voyelle9 = new Voyelle();
-        $voyelle9->setPhoneme('&#650;');
+        $voyelle9->setPhoneme('ʊ');
         $voyelle9->setNumCol('3');
         $voyelle9->setMot('b<b>oo</b>k');
         $voyelle9->setSonPhoneme(NULL);
@@ -119,7 +119,7 @@ class LoadVoyelleData extends AbstractFixture implements OrderedFixtureInterface
         $this->addReference('voyelle9', $voyelle9);
 
         $voyelle10 = new Voyelle();
-        $voyelle10->setPhoneme('&#596;:');
+        $voyelle10->setPhoneme('ɔ:');
         $voyelle10->setNumCol('3');
         $voyelle10->setMot('sw<b>or</b>d');
         $voyelle10->setSonPhoneme(NULL);
@@ -131,7 +131,7 @@ class LoadVoyelleData extends AbstractFixture implements OrderedFixtureInterface
         $this->addReference('voyelle10', $voyelle10);
 
         $voyelle11 = new Voyelle();
-        $voyelle11->setPhoneme('&#594;');
+        $voyelle11->setPhoneme('ɒ');
         $voyelle11->setNumCol('3');
         $voyelle11->setMot('l<b>o</b>ck');
         $voyelle11->setSonPhoneme(NULL);
@@ -143,7 +143,7 @@ class LoadVoyelleData extends AbstractFixture implements OrderedFixtureInterface
         $this->addReference('voyelle11', $voyelle11);
 
         $voyelle12 = new Voyelle();
-        $voyelle12->setPhoneme('&#593;:');
+        $voyelle12->setPhoneme('ɑ:');
         $voyelle12->setNumCol('3');
         $voyelle12->setMot('c<b>ar</b>');
         $voyelle12->setSonPhoneme(NULL);
